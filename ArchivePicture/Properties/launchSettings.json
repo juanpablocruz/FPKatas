@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ArchivePicture": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\\\Users\\\\juanpablo_cruzmaseda\\\\Desktop\\\\Test\" \"C:\\\\Users\\\\juanpablo_cruzmaseda\\\\Desktop\\Test-Out\""
+    }
+  }
+}

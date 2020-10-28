@@ -1,0 +1,62 @@
+{
+    "entry": {
+        "time": "2020-05-20T15:28:53.5381568+02:00",
+        "operation": "Post",
+        "input": {
+            "dto": {
+                "id": "a7936165-7b99-4b16-8d53-56a8fe575b58",
+                "date": "2020-06-20 18:45:00",
+                "email": "fe@example.net",
+                "name": "Elisa Roberts",
+                "quantity": 2
+            }
+        },
+        "output": null
+    },
+    "interactions": [
+        {
+            "time": "2020-05-20T15:28:53.5383578+02:00",
+            "operation": "GetCurrentDateTime",
+            "input": null,
+            "output": "2020-05-20T15:28:53.5383186+02:00"
+        },
+        {
+            "time": "2020-05-20T15:28:53.5521216+02:00",
+            "operation": "ReadReservations",
+            "input": {
+                "date": "2020-06-20T18:45:00"
+            },
+            "output": [
+                {
+                    "id": "7bc3fc93-a777-4138-8630-a805e7246335",
+                    "date": "2020-06-20T18:45:00",
+                    "email": "ninjette@example.net",
+                    "name": "Kozue Kaburagi",
+                    "quantity": 4
+                }
+            ]
+        },
+        {
+            "time": "2020-05-20T15:28:53.5529172+02:00",
+            "operation": "Create",
+            "input": {
+                "reservation": {
+                    "id": "a7936165-7b99-4b16-8d53-56a8fe575b58",
+                    "date": "2020-06-20T18:45:00",
+                    "email": "fe@example.net",
+                    "name": "Elisa Roberts",
+                    "quantity": 2
+                }
+            },
+            "output": null
+        }
+    ],
+    "exit": {
+        "time": "2020-05-20T15:28:53.5555338+02:00",
+        "operation": null,
+        "input": null,
+        "output": {
+            "statusCode": 200
+        }
+    }
+}
